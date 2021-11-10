@@ -66,17 +66,17 @@ let quiropeso = new CryptoBlockchain();
 
 console.log("quiropeso mining in progress....");
 quiropeso.addNewBlock(
-  new CryptoBlock(1, "01/06/2020", {
-    sender: "Iris Ljesnjanin",
-    recipient: "Cosima Mielke",
+  new CryptoBlock(1, "10/11/2021", {
+    sender: "Jose San Martin",
+    recipient: "Manuel Belgrano",
     quantity: 50
   })
 );
 
 quiropeso.addNewBlock(
-  new CryptoBlock(2, "01/07/2020", {
-    sender: "Vitaly Friedman",
-    recipient: "Ricardo Gimenes",
+  new CryptoBlock(2, "10/11/2021", {
+    sender: "Manuel Belgrano",
+    recipient: "Sarmiento",
     quantity: 100
   })
 );
